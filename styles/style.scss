@@ -1,0 +1,10 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+ // @include flexCenter(row, blue);
+ @extend header;
+ background: lightcoral; // This gonna override the previous style
+ background: rgb(168, 58, 58); // This gonna override the previous style
+ width: 100% - 20%;
+}
